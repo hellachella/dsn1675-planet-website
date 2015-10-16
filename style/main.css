@@ -45,6 +45,15 @@ body{
   margin: 0;
 }
 
+h1{
+  line-height: 2em;
+  text-align: center;
+}
+
+h2{
+  line-height:2em;
+}
+
 .gutter{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -58,10 +67,43 @@ body{
 
 .nav-ul{
   list-style-type: none;
+  display: block;
   padding: 0;
+  padding: 1.5em 0;
+
 }
 
 .header{
   background-color: lightgrey;
   overflow: hidden;
+}
+
+
+
+
+/*Small Size*/
+
+
+
+/*Medium Size*/
+
+@media only screen and (min-width: 38em){
+  .nav-ul{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .nav-ul li{
+    margin-right: 1em;
+    float: left;
+    vertical-align: middle;
+}
+
+h1{
+  text-align: left;
+  display: block;
+  vertical-align: middle;
+}
+
+
 }
