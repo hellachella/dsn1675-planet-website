@@ -91,10 +91,12 @@ p{
 }
 
 .moons .unit{
-  background: green;
+float: left;
 }
 
-
+div .moon-info{
+  float: left;
+}
 
 /*Small Size*/
 
