@@ -125,9 +125,21 @@ footer ol{
   list-style-type: none;
   padding: 0;
   text-align: left;
-
-
 }
+
+
+footer a{
+  color: blue;
+}
+
+footer a:hover{
+  color: #fff;
+}
+
+footer a:visited{
+  color: blue;
+}
+
 
 footer li{
   float: none;
