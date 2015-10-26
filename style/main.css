@@ -124,10 +124,14 @@ div .moon-info{
 footer ol{
   list-style-type: none;
   padding: 0;
+  text-align: left;
+  width: 100%;
+  background-color: red;
 }
 
 footer li{
-  display: inline;
+  float: left;
+  background-color: yellow;
 }
 
 footer p{
@@ -135,7 +139,20 @@ footer p{
 }
 
 /*Small Size*/
+@media only screen and (min-width: 20em){
 
+
+  footer ol{
+    text-algin: center;
+  }
+
+
+  footer ol li{
+    display: inline;
+    width: calc(100% / 3);
+  }
+
+}
 
 
 /*Medium Size*/
@@ -144,6 +161,7 @@ footer p{
   .nav-ul{
     display: inline-block;
     width: 100%;
+    text-align: center;
   }
 
   .nav-ul li{
