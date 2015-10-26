@@ -107,6 +107,19 @@ div .moon-info{
   text-align: center;
 }
 
+footer ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li{
+  display: inline;
+}
+
+footer p{
+  padding: 0;
+}
+
 /*Small Size*/
 
 
