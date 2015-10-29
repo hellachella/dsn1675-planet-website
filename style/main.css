@@ -125,9 +125,13 @@ footer ol{
   list-style-type: none;
   padding: 0;
   text-align: left;
+  background: yellow;
+  overflow: hidden;
 }
 
-
+footer div{
+  float: left;
+}
 footer a{
   color: blue;
 }
@@ -151,6 +155,7 @@ footer li{
 footer p{
   padding: 0;
   margin: 0;
+
 }
 
 
