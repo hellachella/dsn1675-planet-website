@@ -86,7 +86,7 @@ h2, h3{
  }
 
 .header{
-  background-color: grey;
+  background-color: #c1c1c1;
   overflow: hidden;
 }
 
@@ -131,6 +131,9 @@ div .moon-info{
   text-align: center;
 }
 
+.dark-grey{
+  background-color: #c1c1c1;
+}
 
 
 footer ol{
