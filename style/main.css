@@ -86,14 +86,23 @@ h2, h3{
   overflow: hidden;
 }
 
-.header a{
+h1 a:visited {
+  color: #000;
+}
+}
+
+.header li a{
   color: blue;
   display: block;
 }
 
-.header a:hover{
+.header li a:hover{
   background-color: blue;
   color: #fff;
+}
+
+.header li a:visited{
+
 }
 
 figure{
@@ -120,6 +129,8 @@ div .moon-info{
   background-color: lightgrey;
   text-align: center;
 }
+
+
 
 footer ol{
   list-style-type: none;
