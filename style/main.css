@@ -109,10 +109,7 @@ h1 a:visited {
 color: white
 }
 
-figure{
-  padding: 1em;
 
-}
 p{
   padding: 1em 0;
 }
@@ -181,7 +178,6 @@ footer p{
     text-align: center;
     margin: 0;
     width: 100%;
-
   }
 
   .nav-ul li{
