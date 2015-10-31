@@ -45,6 +45,18 @@ body{
   margin: 0;
 }
 
+.yellow{
+  background:yellow;
+}
+
+.red{
+  background: red;
+}
+
+blue{
+  background:blue;
+}
+
 a{
   text-decoration: none;
 }
@@ -60,8 +72,12 @@ h2, h3{
 }*/
 
 
-.phases p{
+.padding-0{
   padding: 0;
+}
+
+.margin-0{
+  margin: 0;
 }
 
 
