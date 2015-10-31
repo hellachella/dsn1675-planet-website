@@ -53,7 +53,7 @@ body{
   background: red;
 }
 
-blue{
+.blue{
   background:blue;
 }
 
@@ -89,6 +89,11 @@ h2, h3{
 
 .float-left{
   float: left;
+  overflow: hidden;
+}
+
+.float-right{
+  float: right;
   overflow: hidden;
 }
 
